@@ -1,6 +1,6 @@
 # bensonkitia.com
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b57b0b30-b5a5-4585-8f9f-b493f40b9c48/deploy-status)](https://app.netlify.com/sites/bensonkitiacom/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6eff57ad-6fd0-4add-b451-8780dcac4725/deploy-status)](https://app.netlify.com/sites/bensonkitiacom/deploys)
 
 The home of [my personal website](https://bensonkitia.com).
 
