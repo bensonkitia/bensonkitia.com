@@ -1,5 +1,5 @@
 ---
-title: "Test post"
+title: "Test Post"
 date: 2021-09-28T21:26:54-05:00
 draft: false
 description: "This is how we do it."
