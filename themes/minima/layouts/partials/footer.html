@@ -1,5 +1,4 @@
 <footer class="row row-mob al-c-mob col-rev-mob sm-2-mob jc-bt mtb-2">
-  <p class="c-tag">{{ .Site.Copyright }} | with 💜 in Chicago</p>
   <p class="row gap-0_5">
     <a
       class="icon"
@@ -23,6 +22,7 @@
         /></svg
     ></a>
   </p>
+  <p class="c-tag">{{ .Site.Copyright }} | with 💜 in Chicago</p>
   <p class="row gap-0_5">
     {{ range $_, $key := .Site.Params.Social }}
     <a class="icon" href="{{ $key.url }}" title="{{ $key.name }}">
