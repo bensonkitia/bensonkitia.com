@@ -1,0 +1,18 @@
+<aside>
+  <div>
+    <div>
+      <h2>Writings</h2>
+    </div>
+    <div>
+      <ul class="writingsList">
+        {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in"
+        .Site.Params.mainSections) }} {{ range $paginator.Pages }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a> - {{ .Date.Format
+          "01-02-2006" }}
+        </li>
+        {{ end }} {{ partial "pagination.html" . }}
+      </ul>
+    </div>
+  </div>
+</aside>

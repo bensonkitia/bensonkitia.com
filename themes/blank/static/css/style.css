@@ -1,0 +1,21 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Helvetica;
+  color: #444444;
+
+  padding: 11px;
+}
+
+a {
+  color: purple;
+  text-decoration: none;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.writingsList {
+  padding: 0;
+  list-style-type: none;
+}
