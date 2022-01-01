@@ -6,3 +6,8 @@ copyright = "Benson Venzke-Kitia"
 author = "Benson Kitia"
 seoImage = "https://i.imgur.com/Mg5YbdS.png"
 microAnalyticsId = "ZwSg9rf6GA"
+
+[[menu.main]]
+name = "Subsribe to RSS feed"
+url = "/index.xml"
+weight = 1
