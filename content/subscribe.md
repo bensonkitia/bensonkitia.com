@@ -9,7 +9,7 @@ I haven't gotten email subscriptions set up quite yet, but you can still [click 
 
 If that link doesn't do anything, you may need to disable a browser setting or extension that's blocking Javascript.
 
-Note that for now you **will not** receive new writings in your inbox. You can still suscribe with the methods below which work fine.
+Note that for now you **will not** receive new writings in your inbox. You can still subscribe with the methods below which work fine.
 
 ## RSS
 
