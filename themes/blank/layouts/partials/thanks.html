@@ -1,9 +1,7 @@
 <script>
-  function shareSheet(title, permaLink) {
+  function shareSheet(permaLink) {
     if (navigator.share) {
-      navigator
-        .share({ title: writingTitle, url: permaLink })
-        .catch(console.error);
+      navigator.share({ url: permaLink }).catch(console.error);
     }
   }
 </script>
@@ -15,7 +13,7 @@
   >.
   <br />
   If you think this writing would be useful to your friends or followers,
-  <a onclick="shareSheet($.Title, $.Permalink)">share it with them</a>.
+  <a onclick="shareSheet( {{ .Permalink }} )">share it with them</a>.
   <br />
   If you want to be aware of my writings when they're posted,
   <a href="/subscribe">subscribe via email, RSS, or Twitter</a>.
