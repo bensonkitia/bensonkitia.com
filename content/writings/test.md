@@ -2,7 +2,6 @@
 title: "Test"
 date: 2021-12-30T18:13:21-06:00
 draft: true
-post: true
 ---
 
 ## Heading 2
