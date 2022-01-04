@@ -29,6 +29,8 @@
 	{{ with .Site.Params.microAnalyticsId }}<script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="{{ . }}" async defer></script>{{ end }}
 	<!-- end analytics -->
 	<script>console.log("hello there :)")</script>
+	<!-- email subscription form -->
+	<script async src="https://tally.so/widgets/embed.js"></script>
 </head>
 <body>
 	{{ partial "header" . }}

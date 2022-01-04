@@ -8,6 +8,6 @@ seoImage = "https://i.imgur.com/Mg5YbdS.png"
 microAnalyticsId = "ZwSg9rf6GA"
 
 [[menu.main]]
-name = "Subsribe to RSS feed"
-url = "/index.xml"
+name = "Subscribe"
+url = "/subscribe"
 weight = 1
