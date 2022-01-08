@@ -1,7 +1,6 @@
 ---
 title: "Privacy"
 date: false
-draft: false
 ---
 
 Last updated 01-03-2021
