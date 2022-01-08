@@ -12,6 +12,10 @@ name = "About"
 url = "/about"
 weight = 1
 [[menu.main]]
+name = "Archive"
+url = "/writings"
+weight = 1
+[[menu.main]]
 name = "Subscribe"
 url = "/subscribe"
 weight = 1

@@ -1,8 +1,8 @@
 <aside>
   <div>
-    <h2>Writings</h2>
+    <h2>Recent Writings</h2>
     <div>
-      <ul class="writingsList">
+      <ul class="recentWritings">
         {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in"
         .Site.Params.mainSections) }} {{ range $paginator.Pages }}
         <li>
