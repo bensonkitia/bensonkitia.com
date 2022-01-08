@@ -1,11 +1,13 @@
 :root {
   --background: white;
   --font: #444;
+  --link: purple;
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: 444444;
-    --font: #white;
+    --background: #444444;
+    --font: white;
+    --link: violet;
   }
 }
 
@@ -17,7 +19,7 @@ body {
 }
 
 a {
-  color: #9b29ff;
+  color: var(--link);
   text-decoration: none;
 }
 
