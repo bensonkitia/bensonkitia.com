@@ -1,8 +1,6 @@
 <aside>
   <div>
-    <div>
-      <h2>Writings</h2>
-    </div>
+    <h2>Writings</h2>
     <div>
       <ul class="writingsList">
         {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in"
