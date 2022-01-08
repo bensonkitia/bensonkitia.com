@@ -1,6 +1,8 @@
 <header>
-  <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
-  {{ with .Site.Menus.main }}
+  <div id="title">
+    <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+    by Benson Kitia {{ with .Site.Menus.main }}
+  </div>
   <nav>
     <ul>
       {{ range . }}

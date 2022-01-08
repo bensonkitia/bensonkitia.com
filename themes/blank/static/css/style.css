@@ -23,3 +23,8 @@ nav ul {
 img[alt="a picture of Benson Kitia"] {
   width: 175px;
 }
+
+#title h1,
+#title p {
+  display: inline;
+}
