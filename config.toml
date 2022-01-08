@@ -8,6 +8,10 @@ seoImage = "https://i.imgur.com/Mg5YbdS.png"
 microAnalyticsId = "ZwSg9rf6GA"
 
 [[menu.main]]
+name = "About"
+url = "/about"
+weight = 1
+[[menu.main]]
 name = "Subscribe"
 url = "/subscribe"
 weight = 1

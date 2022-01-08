@@ -19,3 +19,7 @@ nav ul {
   padding: 0;
   list-style-type: none;
 }
+
+img[alt="a picture of Benson Kitia"] {
+  width: 175px;
+}
