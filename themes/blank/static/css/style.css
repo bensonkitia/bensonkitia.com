@@ -28,6 +28,14 @@ nav ul {
   list-style-type: none;
 }
 
+nav a {
+  text-decoration: underline;
+}
+
+nav li {
+  line-height: 1.5;
+}
+
 .recentWritings {
   padding: 0;
   list-style-type: none;
