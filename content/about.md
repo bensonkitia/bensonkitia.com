@@ -25,7 +25,7 @@ AMA Bot is an open-source Discord bot for hosting crowd-sourced interviews right
 
 ## Colophon
 
-I write here mostly for myself, to document my own life, projects, opinions. I am a firm believer in the principles of [open-source software](https://wikipedia.org/wiki/Open_source) bensonkitia.com is built on open-source code and technologies and is entirely open-source itself, meaning anyone can [view this site’s code on GitHub](https://github.com/bensonkitia/bensonkitia.com) and use the code however they please with [little restriction](/about#attribution).
+I write here mostly for myself, to document my own life, projects, opinions. I am a firm believer in the principles of [open-source software](https://wikipedia.org/wiki/Open_source). bensonkitia.com is built on open-source code and technologies and is entirely open-source itself, meaning anyone can [view this site’s code on GitHub](https://github.com/bensonkitia/bensonkitia.com) and use the code however they please with [little restriction](/about#attribution).
 
 ### Toolbox
 
