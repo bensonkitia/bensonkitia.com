@@ -38,13 +38,13 @@ I write here mostly for myself, to document my own life, projects, opinions. I a
 
 ### Attribution
 
-#### [Writings](https://bensonkitia.com/writings)
+#### Writings
 
-All Writings (content/text) are licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) meaning, in summary, you are allowed to share or adapt the material for any purpose as long as you give appropriate credit, provide a link to the license, and indicate if changes were made.
+[All Writings](https://bensonkitia.com/writings) (text) are licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) meaning, in summary, you are allowed to share or adapt the material for any purpose as long as you give appropriate credit, provide a link to the license, and indicate if changes were made.
 
-#### [Source Code](https://github.com/bensonkitia/bensonkitia.com)
+#### Source Code
 
-bensonkitia.com's source code is [MIT-Licensed](https://github.com/bensonkitia/bensonkitia.com/blob/main/LICENSE) meaning, in summary, you can do whatever you want with it as long as you include the copyright notice and permission notice.
+[bensonkitia.com's source code](https://github.com/bensonkitia/bensonkitia.com) is [MIT-Licensed](https://github.com/bensonkitia/bensonkitia.com/blob/main/LICENSE) meaning, in summary, you can do whatever you want with it as long as you include the copyright notice and permission notice.
 
 ### Dedication
 
