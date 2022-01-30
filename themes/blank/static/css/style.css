@@ -36,6 +36,10 @@ nav li {
   line-height: 1.5;
 }
 
+footer a {
+  text-decoration: underline;
+}
+
 .recentWritings {
   padding: 0;
   list-style-type: none;
