@@ -5,7 +5,9 @@ draft: false
 ---
 
 Josh Wardle, creator of Wordle:
-\_ I am incredibly pleased to announce that I've reached an agreement with The New York Times for them to take over running Wordle going forward.
+
+> I am incredibly pleased to announce that I've reached an agreement with The New York Times for them to take over running Wordle going forward.
+
 Twitter is predictably up in arms about the notion that Wordle will be behind a paywall by the end of the business week. I don’t think this will happen, and while I’m not thrilled this indie gem is now owned by a huge corporation, I remain quite optimistic about the future of our favorite one-JavaScript-file webpage.
 
 What’ll happen to Wordle? Well, we can’t be sure, but we can form an educated guess by looking at NYT’s model for their most comparable game, The Daily Mini Crossword. The current day’s Mini is free to play for all in their rather good and polished app, and then you can pay five bucks a month for unlimited access to an archive of all crosswords. This is the route I think NYT will take with Wordle; today’s Wordle is free, and you can get access to an archive and maybe some Wordle spin-off games under that $5/month games subscription.
