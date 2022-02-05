@@ -1,5 +1,7 @@
 ---
 title: "Why I'm Optimistic About Wordle's Acquisition"
+tags:
+  - commentary
 date: 2022-01-31T20:42:40-06:00
 draft: false
 ---

@@ -1,5 +1,8 @@
 ---
 title: "2022: the Year of Building"
+tags:
+  - goals
+  - yearly themes
 date: 2022-01-03T21:43:30-06:00
 draft: false
 ---
