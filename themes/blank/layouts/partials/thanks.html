@@ -2,19 +2,26 @@
   function shareSheet(permaLink) {
     if (navigator.share) {
       navigator.share({ url: permaLink }).catch(console.error);
+    } else {
+      document.getElementById("sharesheetLink").style.color = "inherit";
     }
   }
 </script>
 <div>
   <h2>Thanks for reading</h2>
-  <a
-    href="https://twitter.com/search?q=%22{{ .Title }}%22%20(from%3Abensonkitiacom)"
-    >Discuss or let me know what you think on Twitter</a
-  >.
-  <br />
-  If you think this writing would be useful to your friends or followers,
-  <a onclick="shareSheet( {{ .Permalink }} )">share it with them</a>.
-  <br />
-  If you want to be aware of my writings when they're posted,
-  <a href="/subscribe">subscribe via email, RSS, or Twitter</a>.
+  <p>
+    <a
+      href="https://twitter.com/search?q=%22{{ .Title }}%22%20(from%3Abensonkitiacom)"
+      >Discuss or give feedback on Twitter</a
+    >
+  </p>
+
+  <p>
+    <a id="sharesheetLink" onclick="shareSheet( {{ .Permalink }} )"
+      >Share the link to this writing</a
+    >
+  </p>
+  <p>
+    <a href="/subscribe">Subscribe to future writings</a>
+  </p>
 </div>
