@@ -1,7 +1,6 @@
 baseURL = 'https://bensonkitia.com'
 languageCode = 'en-us'
 title = 'bk;'
-theme = "blank"
 copyright = "Benson Kitia"
 author = "Benson Kitia"
 seoImage = "https://i.imgur.com/Mg5YbdS.png"
