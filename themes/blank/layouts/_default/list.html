@@ -5,8 +5,9 @@
   <ul>
     {{ range .Pages }}
     <li>
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a> - {{ .Date.Format
-      "01-02-2006" }}
+      <i><small>{{ .Date.Format "01-02-2006" }}</small></i
+      ><br />
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a><br /><br />
     </li>
     {{ end }}
   </ul>
