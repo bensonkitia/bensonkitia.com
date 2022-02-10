@@ -45,7 +45,8 @@ footer a {
 }
 
 footer {
-  padding-top: 15px;
+  padding-top: 10px;
+  text-align: center;
 }
 
 .recentWritings {
