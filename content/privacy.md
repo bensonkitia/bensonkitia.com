@@ -3,15 +3,15 @@ title: "Privacy"
 date: false
 ---
 
-Last updated 02-09-2021
+Last updated 02-14-2021
 
 ## Scope
 
-This privacy policy applies to bensonkitia.com.
+This privacy policy applies to bensonkitia.com and yerdle.kitia.dev.
 
 ## Terminology
 
-bensonkitia.com:
+bensonkitia.com and yerdle.kitia.dev.
 
 - the site
 

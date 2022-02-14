@@ -23,6 +23,10 @@ The best way to get in touch with me is to [send me a DM on Twitter](https://twi
 
 AMA Bot is an open-source Discord bot for hosting crowd-sourced interviews right inside a Discord server, used to host guests like Rene Ritchie and Michael Fisher, with hundreds of thousands of internet followers. Written in Python using the discord.py library.
 
+### [Yerdle](https://yerdle.bensonkitia.com)
+
+Yerdle is a Ye-themed daily word puzzle.
+
 ## Colophon
 
 I write here mostly for myself, to document my own life, projects, opinions. I am a firm believer in the principles of [open-source software](https://wikipedia.org/wiki/Open_source). bensonkitia.com is built on open-source code and technologies and is entirely open-source itself, meaning anyone can [view this site’s code on GitHub](https://github.com/bensonkitia/bensonkitia.com) and use the code however they please with [little restriction](/about#attribution).
