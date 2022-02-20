@@ -77,8 +77,12 @@ img[alt="a picture of Benson Kitia"] {
   background-color: var(--font);
 }
 
-nav li {
+li {
   line-height: 1.5;
+}
+
+nav li {
+  line-height: 2;
   text-decoration: underline;
 }
 
