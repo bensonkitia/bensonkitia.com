@@ -37,7 +37,6 @@ blockquote a {
 body {
   background-color: var(--background);
   color: var(--font);
-
   font-family: -apple-system-body, -apple-system, system-ui, BlinkMacSystemFont,
     Helvetica;
 }
@@ -45,6 +44,7 @@ body {
 .content {
   margin: auto;
   max-width: 480px;
+  padding: 20px;
 }
 
 footer {
