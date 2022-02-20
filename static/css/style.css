@@ -65,6 +65,10 @@ img[alt="a picture of Benson Kitia"] {
   font-style: italic;
 }
 
+.info a {
+  text-decoration-color: inherit;
+}
+
 .info a:hover {
   background-color: var(--font);
 }
