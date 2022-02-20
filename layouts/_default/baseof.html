@@ -31,8 +31,10 @@
 	<script>console.log("hello there :)")</script>
 </head>
 <body>
+	<div class="content">
 	{{ partial "header" . }}
 	{{ block "main" . }}{{ end }}
 	{{ partial "footer" . }}
+	</div>
 </body>
 </html>

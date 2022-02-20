@@ -38,6 +38,11 @@ body {
   padding: 11px;
 }
 
+.content {
+  max-width: 480px;
+  margin: auto;
+}
+
 footer {
   padding-top: 10px;
   text-align: justify;
