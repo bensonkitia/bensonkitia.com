@@ -5,13 +5,11 @@ date: false
 
 Hi, I'm Benson Kitia, a 15 year old builder in Chicago. I use the pronouns he/him/his.
 
-Right now, I'm writing this blog and satirical tech news articles at [The Variant](https://thevariant.net), learning lots of things, and building a new way to discover and share your favorite iOS apps.
+Right now, outside of being a full-time student, I'm writing about various things here, writing satirical tech news articles at [The Variant](https://thevariant.net), learning lots of things, and building a new way to discover and share your favorite iOS apps.
 
 ![a picture of Benson Kitia](https://i.imgur.com/I6gQsQz.jpg "a picture of Benson Kitia")
 
 ## Connect
-
-You can find me @bensonkitia on most platforms.
 
 - [Twitter](https://twitter.com/bensonkitia)
 - [GitHub](https://github.com/bensonkitia)
@@ -20,7 +18,8 @@ You can find me @bensonkitia on most platforms.
 
 ## Contact
 
-The best way to get in touch with me is to [send me a DM on Twitter](https://twitter.com/messages/compose?recipient_id=1188270454303277056). Alternatively, you can [send me an email at benson@kitia.dev](mailto:benson@kitia.dev).
+- [Twitter DM](https://twitter.com/messages/compose?recipient_id=1188270454303277056) (preferred)
+- [Email](mailto:benson@kitia.dev) (totally fine as well)
 
 ## Projects
 
@@ -34,7 +33,7 @@ Yerdle is a Ye-themed daily word puzzle.
 
 ## Colophon
 
-I write here mostly for myself, to document my own life, projects, opinions. I am a firm believer in the principles of [open-source software](https://wikipedia.org/wiki/Open_source). bensonkitia.com is built on open-source code and technologies and is entirely open-source itself, meaning anyone can [view this site’s code on GitHub](https://github.com/bensonkitia/bensonkitia.com) and use the code however they please with [little restriction](/about#attribution).
+I write here mostly for myself, strictly to document my own life, projects, and opinions.
 
 ### Toolbox
 
