@@ -2,9 +2,10 @@
 title: "iOS App Design Inspirations"
 tags:
     - design
+    - iOS
     - iOS apps
     - iOS development
-    - list
+    - lists
 date: 2022-02-19T22:10:05-06:00
 draft: false
 ---

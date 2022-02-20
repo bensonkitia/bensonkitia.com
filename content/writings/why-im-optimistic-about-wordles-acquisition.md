@@ -1,7 +1,10 @@
 ---
 title: "Why I'm Optimistic About Wordle's Acquisition"
 tags:
+  - culture
   - commentary
+  - social media
+  - web
 date: 2022-01-31T20:42:40-06:00
 draft: false
 ---
