@@ -78,12 +78,12 @@ nav li {
   text-decoration: underline;
 }
 
-.noBullets {
+.no-bullets {
   list-style-type: none;
   padding: 0;
 }
 
-#siteFooter {
+#site-footer {
   padding-top: 20px;
   padding-left: 40px;
 }

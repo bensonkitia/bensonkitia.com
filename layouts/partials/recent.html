@@ -2,7 +2,7 @@
   <div>
     <h2>Recent Writings</h2>
     <div>
-      <ul class="noBullets">
+      <ul class="no-bullets">
         {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in"
         .Site.Params.mainSections) }} {{ range $paginator.Pages }}
         <li>

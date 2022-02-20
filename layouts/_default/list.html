@@ -2,7 +2,7 @@
 <main>
   {{ range .Data.Pages.GroupByDate "January 2006" }}
   <h3>{{ .Key }}</h3>
-  <ul class="noBullets">
+  <ul class="no-bullets">
     {{ range .Pages }}
     <li>
       <span class="info"
