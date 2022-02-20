@@ -11,13 +11,6 @@
   }
 }
 
-body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Helvetica;
-  padding: 11px;
-  background-color: var(--background);
-  color: var(--font);
-}
-
 a {
   color: var(--link);
   text-decoration: none;
@@ -27,13 +20,11 @@ a:hover {
   text-decoration: underline;
 }
 
-nav li {
-  line-height: 1.5;
-  text-decoration: underline;
-}
-
-footer a {
-  text-decoration: underline;
+body {
+  background-color: var(--background);
+  color: var(--font);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Helvetica;
+  padding: 11px;
 }
 
 footer {
@@ -41,13 +32,22 @@ footer {
   text-align: justify;
 }
 
-.noBullets {
-  padding: 0;
-  list-style-type: none;
+footer a {
+  text-decoration: underline;
 }
 
 img[alt="a picture of Benson Kitia"] {
   width: 175px;
+}
+
+nav li {
+  line-height: 1.5;
+  text-decoration: underline;
+}
+
+.noBullets {
+  list-style-type: none;
+  padding: 0;
 }
 
 #title h1,
