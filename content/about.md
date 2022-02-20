@@ -7,8 +7,6 @@ Hi, I'm Benson Kitia, a 15 year old builder in Chicago. I use the pronouns he/hi
 
 Right now, outside of being a full-time student, I'm writing about various things here, writing satirical tech news articles at [The Variant](https://thevariant.net), learning lots of things, and building a new way to discover and share your favorite iOS apps.
 
-![a picture of Benson Kitia](https://i.imgur.com/I6gQsQz.jpg "a picture of Benson Kitia")
-
 ## Connect
 
 - [Twitter](https://twitter.com/bensonkitia)
