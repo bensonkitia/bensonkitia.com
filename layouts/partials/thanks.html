@@ -3,7 +3,12 @@
     if (navigator.share) {
       navigator.share({ url: permaLink }).catch(console.error);
     } else {
-      document.getElementById("sharesheetLink").style.color = "inherit";
+      try {
+        const sharesheetLink = document.getElementById("sharesheet-link");
+        sharesheetLink.style.textdecoration = "none";
+      } catch (error) {
+        console.error(error);
+      }
     }
   }
 </script>
@@ -15,9 +20,8 @@
       >Discuss or give feedback on Twitter</a
     >
   </p>
-
   <p>
-    <a id="sharesheetLink" onclick="shareSheet( {{ .Permalink }} )"
+    <a id="sharesheet-link" onclick="shareSheet( {{ .Permalink }} )"
       >Share the link to this writing</a
     >
   </p>
