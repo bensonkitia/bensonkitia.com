@@ -16,8 +16,8 @@
             <a href="{{ "/tags/" | relLangURL }}{{ $value | urlize }}">{{ . }}</a>
             {{- end }}
          </p>
-      </div>
       {{ end }}
+	</div>
       <div>
          {{ .Content }}
          {{ if .Date }}
