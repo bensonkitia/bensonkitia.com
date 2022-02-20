@@ -1,18 +1,18 @@
-<aside>
-  <div>
-    <h2>Recent Writings</h2>
-    <div>
-      <ul id="writing-list">
-        {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in"
-        .Site.Params.mainSections) }} {{ range $paginator.Pages }}
-        <li>
-          <span class="info"
-            ><i><small>{{ .Date.Format "01-02-2006" }}</small></i></span
-          ><br />
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        </li>
-        {{ end }} {{ partial "pagination.html" . }}
-      </ul>
-    </div>
-  </div>
-</aside>
+<div>
+  <h2>Recent Writings</h2>
+  <ul id="writing-list">
+    {{ range first 10 (where .Site.RegularPages "Type" "in"
+    .Site.Params.mainSections) }}
+    <li>
+      <span class="info"
+        ><i><small>{{ .Date.Format "01-02-2006" }}</small></i></span
+      ><br />
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+  <p>
+    <span class="info">Above are the 10 most recent writings.</span>
+    <span><a href="/writings">View Archive</a></span>
+  </p>
+</div>
