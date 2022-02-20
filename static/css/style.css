@@ -1,14 +1,12 @@
 :root {
   --background: white;
   --font: #444444;
-  --link: black;
   --secondary: #949494;
 }
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #444444;
     --font: white;
-    --link: violet;
     --secondary: #aaa;
   }
 }
