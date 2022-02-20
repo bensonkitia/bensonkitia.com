@@ -8,7 +8,7 @@ draft: false
 
 Josh Wardle, creator of Wordle:
 
-> I am incredibly pleased to announce that I've reached an agreement with The New York Times for them to take over running Wordle going forward.
+> [I am incredibly pleased to announce that I've reached an agreement with The New York Times for them to take over running Wordle going forward.](https://twitter.com/powerlanguish/status/1488263944309731329)
 
 Twitter is predictably up in arms about the notion that Wordle will be behind a paywall by the end of the business week. I don’t think this will happen, and while I’m not thrilled this indie gem is now owned by a huge corporation, I remain quite optimistic about the future of our favorite one-JavaScript-file webpage.
 
