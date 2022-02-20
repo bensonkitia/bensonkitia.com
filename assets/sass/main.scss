@@ -15,6 +15,7 @@
 body {
   background-color: var(--background);
   color: var(--font);
+
   font-family: -apple-system-body, -apple-system, system-ui, BlinkMacSystemFont,
     Helvetica;
 }
@@ -27,9 +28,9 @@ body {
 
 a {
   color: inherit;
-  text-decoration: underline;
   text-decoration-color: violet;
   text-decoration-thickness: 0.125em;
+  text-decoration: underline;
 
   &:hover {
     background-color: var(--secondary);
@@ -82,19 +83,21 @@ li {
   line-height: 1.5;
 }
 
-nav li {
-  line-height: 2;
-  text-decoration: underline;
-}
+nav {
+  li {
+    line-height: 2;
+    text-decoration: underline;
+  }
 
-.no-bullets {
-  list-style-type: none;
-  padding: 0;
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
 }
 
 #site-footer {
-  padding-top: 20px;
   padding-left: 40px;
+  padding-top: 20px;
 }
 
 #title {
@@ -110,5 +113,14 @@ nav li {
   h1,
   p {
     display: inline;
+  }
+}
+
+#writing-list {
+  list-style-type: none;
+  padding: 0;
+
+  li {
+    padding-bottom: 15px;
   }
 }

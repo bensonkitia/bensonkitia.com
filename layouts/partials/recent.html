@@ -2,10 +2,10 @@
   <div>
     <h2>Recent Writings</h2>
     <div>
-      <ul class="no-bullets">
+      <ul id="writing-list">
         {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in"
         .Site.Params.mainSections) }} {{ range $paginator.Pages }}
-        <li id="dated-li">
+        <li>
           <span class="info"
             ><i><small>{{ .Date.Format "01-02-2006" }}</small></i></span
           ><br />

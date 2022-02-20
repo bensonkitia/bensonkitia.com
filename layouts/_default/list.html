@@ -2,9 +2,9 @@
 <main>
   {{ range .Data.Pages.GroupByDate "January 2006" }}
   <h3>{{ .Key }}</h3>
-  <ul class="no-bullets">
+  <ul id="writing-list">
     {{ range .Pages }}
-    <li id="dated-li">
+    <li>
       <span class="info"
         ><i><small>{{ .Date.Format "01-02-2006" }}</small></i></span
       >
