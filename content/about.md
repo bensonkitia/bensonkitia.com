@@ -11,7 +11,12 @@ Right now, I'm writing this blog and satirical tech news articles at [The Varian
 
 ## Connect
 
-I'm @bensonkitia everywhere ([Twitter](https://twitter.com/bensonkitia), [GitHub](https://github.com/bensonkitia), [Polywork](https://polywork.com/bensonkitia), [Instagram](https://instagram.com/bensonkitia)).
+You can find me @bensonkitia on most platforms.
+
+- [Twitter](https://twitter.com/bensonkitia)
+- [GitHub](https://github.com/bensonkitia)
+- [Polywork](https://polywork.com/bensonkitia)
+- [Spotify](https://open.spotify.com/user/kansg77nxd40s0m3a6kteqb3o?si=10e818d4d49e4e82)
 
 ## Contact
 
@@ -35,8 +40,9 @@ I write here mostly for myself, to document my own life, projects, opinions. I a
 
 - [Hugo](https://gohugo.io)
 - [Markdown](https://daringfireball.net/projects/markdown/)
+- [Drafts](https://apps.apple.com/us/app/drafts/id1236254471)
 - [Visual Studio Code](https://code.visualstudio.com)
-- [GitHub Desktop](https://desktop.github.com/)
+- [GitKraken](https://www.gitkraken.com/)
 - [GitHub](https://github.com)
 - [Netlify](https://netlify.com)
 
@@ -52,4 +58,4 @@ I write here mostly for myself, to document my own life, projects, opinions. I a
 
 ### Dedication
 
-This publication is dedicated to Ye West. He's alive, but still.
+This publication is dedicated to [Ye West](https://instagram.com/kanyewest). He's alive, but still.
