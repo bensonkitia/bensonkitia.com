@@ -1,31 +1,34 @@
 {{ define "main" }}
-	<main>
-		<article>
-			<h1>{{ .Title }}</h1>
-			<div>
-			{{ if .Date }}
-			{{ .Date.Format "01-02-2006" }}
-			{{ end }}
-			{{ with .Params.tags }}
-    <div>
-      <span>Tags:</span>
-      {{ range $key, $value := . }}
-        {{- if $key }}, {{ end }}
-        <a href="{{ "/tags/" | relLangURL }}{{ $value | urlize }}">{{ . }}</a>
-      {{- end }}
-    </div>
-  {{ end }}
-			<div>
-				{{ .Content }}
-				{{ if .Date }}
-				{{ partial "thanks" . }}
-				{{ end }}
-			</div>
-			{{ with .Site.DisqusShortname }}
-			<div>
-				{{ template "_internal/disqus.html" . }}
-			</div>
-			{{ end }}
-		</article>
-	</main>
+<main>
+   <article>
+      <p>
+      <h1>{{ .Title }}</h1>
+      <div class="info">
+         {{ if .Date }}
+         {{ .Date.Format "01-02-2006" }}
+         {{ end }}
+         </p>
+         <p>
+            {{ with .Params.tags }}
+            Tags:
+            {{ range $key, $value := . }}
+            {{- if $key }}, {{ end }}
+            <a href="{{ "/tags/" | relLangURL }}{{ $value | urlize }}">{{ . }}</a>
+            {{- end }}
+         </p>
+      </div>
+      {{ end }}
+      <div>
+         {{ .Content }}
+         {{ if .Date }}
+         {{ partial "thanks" . }}
+         {{ end }}
+      </div>
+      {{ with .Site.DisqusShortname }}
+      <div>
+         {{ template "_internal/disqus.html" . }}
+      </div>
+      {{ end }}
+   </article>
+</main>
 {{ end }}

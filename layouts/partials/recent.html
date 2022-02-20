@@ -6,7 +6,8 @@
         {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in"
         .Site.Params.mainSections) }} {{ range $paginator.Pages }}
         <li>
-          <i><small>{{ .Date.Format "01-02-2006" }}</small></i
+          <span class="info"
+            ><i><small>{{ .Date.Format "01-02-2006" }}</small></i></span
           ><br />
           <a href="{{ .RelPermalink }}">{{ .Title }}</a><br /><br />
         </li>

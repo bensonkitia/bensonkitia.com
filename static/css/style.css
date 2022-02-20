@@ -2,7 +2,6 @@
   --background: white;
   --font: #444;
   --link: purple;
-  --blockquote-color: var(--font);
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -22,7 +21,7 @@ a:hover {
 }
 
 blockquote {
-  border-left: 2px solid var(--blockquote-color);
+  border-left: 2px solid var(--font);
   margin-left: 25px;
   padding: 10px;
 }
@@ -39,8 +38,8 @@ body {
 }
 
 .content {
-  max-width: 480px;
   margin: auto;
+  max-width: 480px;
 }
 
 footer {
@@ -54,6 +53,11 @@ footer a {
 
 img[alt="a picture of Benson Kitia"] {
   width: 175px;
+}
+
+.info {
+  color: #aaa;
+  font-style: italic;
 }
 
 nav li {
