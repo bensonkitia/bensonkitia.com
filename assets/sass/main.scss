@@ -28,9 +28,9 @@ body {
 
 a {
   color: inherit;
+  text-decoration: underline;
   text-decoration-color: violet;
   text-decoration-thickness: 0.125em;
-  text-decoration: underline;
 
   &:hover {
     background-color: var(--secondary);
