@@ -15,7 +15,8 @@
 
 a {
   color: inherit;
-  text-decoration: underline violet;
+  text-decoration: underline;
+  text-decoration-color: violet;
   text-decoration-thickness: 0.125em;
 }
 
