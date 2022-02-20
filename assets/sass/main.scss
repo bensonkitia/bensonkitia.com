@@ -38,6 +38,12 @@ a {
   }
 }
 
+article {
+  img {
+    max-width: 240px;
+  }
+}
+
 blockquote {
   border-left: 2px solid violet;
   margin-left: 25px;
@@ -60,10 +66,6 @@ footer {
   a {
     text-decoration: underline;
   }
-}
-
-img[alt="a picture of Benson Kitia"] {
-  width: 175px;
 }
 
 .info {
