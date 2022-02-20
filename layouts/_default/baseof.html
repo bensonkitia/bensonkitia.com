@@ -20,11 +20,13 @@
 	{{ with .Site.Params.description }}<meta property="twitter:description" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.seoImage }}<meta property="Twitter:image" content="{{ . }}">{{ end }}
 	<!-- end SEO stuff -->
-	<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+	{{ $scss := resources.Get "sass/main.scss" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
+	<link rel="stylesheet" href="{{ $scss.Permalink }}">
 	{{ with .OutputFormats.Get "RSS" -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 	{{- end }}
-	<link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+	{{ $favicon := resources.Get "images/favicon.ico" }}
+	<link rel="icon" type="image/x-icon" href="{{ $favicon.Permalink }}"/>
 	<!-- analytics -->
 	{{ with .Site.Params.microAnalyticsId }}<script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="{{ . }}" async defer></script>{{ end }}
 	<!-- end analytics -->
