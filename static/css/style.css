@@ -2,6 +2,7 @@
   --background: white;
   --font: #444;
   --link: purple;
+  --blockquote-color: var(--font);
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -18,6 +19,16 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+blockquote {
+  border-left: 2px solid var(--blockquote-color);
+  margin-left: 25px;
+  padding: 10px;
+}
+
+blockquote a {
+  color: inherit;
 }
 
 body {
