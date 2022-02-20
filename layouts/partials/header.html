@@ -4,7 +4,7 @@
     by Benson Kitia {{ with .Site.Menus.main }}
   </div>
   <nav>
-    <ul>
+    <ul class="noBullets">
       {{ range . }}
       <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
       {{ end }}

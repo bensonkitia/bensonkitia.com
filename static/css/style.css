@@ -27,17 +27,9 @@ a:hover {
   text-decoration: underline;
 }
 
-ul {
-  padding: 0;
-  list-style-type: none;
-}
-
-nav a {
-  text-decoration: underline;
-}
-
 nav li {
   line-height: 1.5;
+  text-decoration: underline;
 }
 
 footer a {
@@ -49,7 +41,7 @@ footer {
   text-align: justify;
 }
 
-.recentWritings {
+.noBullets {
   padding: 0;
   list-style-type: none;
 }
