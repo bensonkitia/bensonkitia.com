@@ -5,11 +5,11 @@
       <ul class="no-bullets">
         {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in"
         .Site.Params.mainSections) }} {{ range $paginator.Pages }}
-        <li>
+        <li id="dated-li">
           <span class="info"
             ><i><small>{{ .Date.Format "01-02-2006" }}</small></i></span
           ><br />
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a><br /><br />
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         </li>
         {{ end }} {{ partial "pagination.html" . }}
       </ul>

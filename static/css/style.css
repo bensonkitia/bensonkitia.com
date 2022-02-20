@@ -47,6 +47,10 @@ body {
   padding: 20px;
 }
 
+#dated-li {
+  padding-bottom: 15px;
+}
+
 footer {
   color: var(--secondary);
   text-align: justify;
