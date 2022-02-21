@@ -98,11 +98,11 @@ An underrated app for automatic time tracking that I use religiously with 1 mino
 
 Unfortunately, the best journaling app that exists, even though it isn't particularly good; well designed, polished, affordable. The important stuff works just fine though.
 
-#### [Books](https://apps.apple.com/us/app/instapaper/id288545208)
+#### Books
 
 Where I do most of my (not) reading. One of the most well-designed iOS apps I've used.
 
-#### [Instapaper](https://apps.apple.com/us/app/product-hunt/id904658671)
+#### [Instapaper](https://apps.apple.com/us/app/instapaper/id288545208)
 
 My read-it-later service of choice.
 
