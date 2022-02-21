@@ -3,7 +3,7 @@ title: "About"
 date: false
 ---
 
-Hi, I'm Benson Kitia, a 15 year old builder in Chicago. 
+Hi, I'm Benson Kitia, a 15 year old builder in Chicago.
 
 I use the pronouns he/him/his.
 
