@@ -3,7 +3,7 @@ title: "Privacy"
 date: false
 ---
 
-Last updated 02-14-2021
+Last updated 02-21-2021
 
 ## Scope
 
@@ -33,19 +33,18 @@ A user of the site:
 
 #### Analytics data
 
-We collect analytics data via [Microanalytics.io](https://microanalytics.io), including:
+We collect non-personally-identifiable analytics data via [Microanalytics.io](https://microanalytics.io), including:
 
 - The pages of the site that you visit
-- The site that you came from
+- The address of the any referring sites (site that you come from)
 - Your imprecise location, including your continent, country, or city
 - Your language
 - Your operating system
 - Your browser
 - Your screen resolution
 - Your device
-- Events, like links that you on the site that you click on
 
-We collect this data to understand who is using the site and how they are using the site, to optimize the site and content.
+We collect this data to understand who is using the site and how they are using the site to optimize the site and content.
 
 [Microanalytics.io's Privacy Policy](https://microanalytics.io/page/privacy) may apply to this data.
 
