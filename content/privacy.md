@@ -7,11 +7,11 @@ Last updated 02-14-2021
 
 ## Scope
 
-This privacy policy applies to bensonkitia.com and yerdle.kitia.dev.
+This privacy policy applies to bensonkitia.com and yerdle.bensonkitia.com.
 
 ## Terminology
 
-bensonkitia.com and yerdle.kitia.dev.
+bensonkitia.com and yerdle.bensonkitia.com.
 
 - the site
 
