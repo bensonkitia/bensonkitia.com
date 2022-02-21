@@ -3,7 +3,9 @@ title: "About"
 date: false
 ---
 
-Hi, I'm Benson Kitia, a 15 year old builder in Chicago. I use the pronouns he/him/his.
+Hi, I'm Benson Kitia, a 15 year old builder in Chicago. 
+
+I use the pronouns he/him/his.
 
 Right now, outside of being a full-time student, I'm writing about various things here, writing satirical tech news articles at [The Variant](https://thevariant.net), learning lots of things, and building a new way to discover and share your favorite iOS apps.
 
