@@ -1,5 +1,5 @@
 <div>
-  <h1>Recent Writings</h1>
+  <h2>Recent Writings</h2>
   <ul id="writing-list">
     {{ range first 10 (where .Site.RegularPages "Type" "in"
     .Site.Params.mainSections) }}

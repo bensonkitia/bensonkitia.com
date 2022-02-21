@@ -1,7 +1,9 @@
 {{ define "main" }}
 <main>
-  {{ range .Data.Pages.GroupByDate "January 2006" }}
-  <h1>{{ .Key }}</h1>
+  {{ with .Title }}
+  <h1>{{ . }}</h1>
+  {{ end }} {{ range .Data.Pages.GroupByDate "January 2006" }}
+  <h2>{{ .Key }}</h2>
   <ul id="writing-list">
     {{ range .Pages }}
     <li>
