@@ -1,5 +1,7 @@
 ---
 title: "Why I'm Optimistic About Wordle's Acquisition"
+categories:
+  - news
 tags:
   - culture
   - commentary

@@ -1,5 +1,8 @@
 ---
 title: "My iPhone Home Screen (Feb ’22)"
+categories:
+    - life
+    - tech
 tags:
     - home screens
     - iphone

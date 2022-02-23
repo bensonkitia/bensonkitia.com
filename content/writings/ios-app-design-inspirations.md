@@ -1,5 +1,8 @@
 ---
 title: "iOS App Design Inspirations"
+categories:
+    - dev & design
+    - tech
 tags:
     - design
     - iOS
