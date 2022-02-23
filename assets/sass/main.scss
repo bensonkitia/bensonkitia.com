@@ -17,7 +17,7 @@ body {
   color: var(--font);
 
   font-family: -apple-system-body, -apple-system, system-ui, BlinkMacSystemFont,
-    Helvetica;
+    serif;
 }
 
 .content {
@@ -118,7 +118,11 @@ nav {
     }
   }
 
-  h1,
+  h1 {
+    display: inline;
+    font-family: Georgia, serif;
+  }
+
   p {
     display: inline;
   }
