@@ -2,6 +2,23 @@
 <main>
   {{ with .Title }}
   <h1>{{ . }}</h1>
+  {{ end }} {{ if eq .Title "Writings" }}
+  <nav>
+    <ul class="info">
+      <li>
+        <a href="/categories">Filter by <b>Category</b></a>
+      </li>
+      <li>
+        <a href="/tags">Filter by <b>Tag</b></a>
+      </li>
+    </ul>
+  </nav>
+  {{ end }} {{ if not (eq .Title "Categories" "Tags" "Writings") }}
+  <p>
+    <a href="{{ .RelPermalink }}/index.xml"
+      >RSS Feed for posts in {{ .Section }}/{{ .Title }}</a
+    >
+  </p>
   {{ end }} {{ range .Data.Pages.GroupByDate "January 2006" }}
   <h2>{{ .Key }}</h2>
   <ul id="writing-list">
