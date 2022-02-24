@@ -14,9 +14,10 @@
     </ul>
   </nav>
   {{ end }} {{ if not (eq .Title "Categories" "Tags" "Writings") }}
-  <p>
+  <p class="info">
+    You can subscribe to an
     <a href="{{ .RelPermalink }}/index.xml"
-      >RSS Feed for posts in {{ .Section }}/{{ .Title }}</a
+      >RSS feed of new Writings in {{ .Section }}/{{ .Title }}</a
     >
   </p>
   {{ end }} {{ range .Data.Pages.GroupByDate "January 2006" }}

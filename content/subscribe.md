@@ -5,9 +5,21 @@ date: false
 
 ## RSS
 
-You can subscribe to an RSS feed of new writings by [clicking here](https://bensonkitia.com/index.xml).
+### All Writings
+
+You can subscribe to an [RSS feed of all new Writings](https://bensonkitia.com/index.xml).
 
 Alternatively, you can manually add the feed to your RSS client with this link: <https://bensonkitia.com/index.xml>.
+
+### By Category or Tag
+
+You can subscribe to an RSS feed of new Writings in/with specific [Categories](/categories) or [Tags](/tags) by filtering [all Writings](/writings) by the Category or Tag you'd like to subscribe to, and then using the link at the top of that Category/Tag's page.
+
+Alternatively, you can manually add the feed to your RSS client with the following syntax:
+
+By Category: `https://bensonkitia.com/categories/example-category/index.xml`
+
+By Tag: `https://bensonkitia.com/categories/example-tag/index.xml`
 
 ## Twitter
 
