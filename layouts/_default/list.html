@@ -17,7 +17,7 @@
   <p class="info">
     You can subscribe to an
     <a href="{{ .RelPermalink }}/index.xml"
-      >RSS feed of new Writings in {{ .Section }}/{{ .Title }}</a
+      >RSS feed of new Writings in {{ .RelPermalink }}</a
     >
   </p>
   {{ end }} {{ range .Data.Pages.GroupByDate "January 2006" }}
