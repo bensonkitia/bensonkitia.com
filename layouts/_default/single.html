@@ -5,12 +5,21 @@
     {{ if .Date }} {{ .Date.Format "01-02-2006" }} {{ end }}
   </time>
   <article>{{ .Content }}</article>
-  <footer class="info">
-    {{ with .Params.tags }} Tags: {{ range $key, $value := . }} {{- if $key }},
-    {{ end }}
-    <a href='{{ "/tags/" | relLangURL }}{{ $value | urlize }}'>{{ . }}</a>
-    {{- end }} {{ end }}
-  </footer>
   {{ if .Date }} {{ partial "thanks" . }} {{ end }}
+  <footer class="info">
+    {{ with .Params.categories }}
+    <p>
+      Posted in: {{ range $key, $value := . }} {{- if $key }}, {{ end }}
+      <a href='{{ "/tags/" | relLangURL }}{{ $value | urlize }}'>{{ . }}</a>
+      {{- end }}
+    </p>
+    {{ end }} {{ with .Params.tags }}
+    <p>
+      Tags: {{ range $key, $value := . }} {{- if $key }}, {{ end }}
+      <a href='{{ "/tags/" | relLangURL }}{{ $value | urlize }}'>{{ . }}</a>
+      {{- end }}
+    </p>
+    {{ end }}
+  </footer>
 </main>
 {{ end }}
