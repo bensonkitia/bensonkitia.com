@@ -4,10 +4,11 @@ categories:
     - dev & design
     - tech
 tags:
+    - apple
+    - apps
     - design
-    - iOS
-    - iOS apps
-    - iOS development
+    - ios
+    - ios development
     - lists
 date: 2022-02-19T22:10:05-06:00
 draft: false

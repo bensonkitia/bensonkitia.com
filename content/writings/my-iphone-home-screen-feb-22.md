@@ -4,8 +4,10 @@ categories:
     - life
     - tech
 tags:
+    - apple
+    - apps
     - home screens
-    - iphone
+    - ios
     - workflows
 date: 2022-02-20T14:14:01-06:00
 draft: false
