@@ -1,6 +1,7 @@
 ---
 title: "2022: the Year of Building"
-categories: life
+categories:
+  - life
 tags:
   - goals
   - yearly themes
