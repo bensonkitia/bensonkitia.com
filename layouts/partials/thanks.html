@@ -4,8 +4,8 @@
       navigator.share({ url: permaLink }).catch(console.error);
     } else {
       try {
-        const sharesheetLink = document.getElementById("sharesheet-link");
-        sharesheetLink.style.textdecoration = "none";
+        const shareSheetLink = document.getElementById("sharesheet-link");
+        shareSheetLink.style.textDecoration = "inherit";
       } catch (error) {
         console.error(error);
       }
