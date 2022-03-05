@@ -109,8 +109,11 @@ nav {
 }
 
 #title {
+  color: violet;
+  display: inline;
+  font-family: Georgia, serif;
+
   a {
-    color: violet;
     text-decoration: none;
 
     &:hover {
@@ -120,7 +123,6 @@ nav {
 
   h1 {
     display: inline;
-    font-family: Georgia, serif;
   }
 
   p {
