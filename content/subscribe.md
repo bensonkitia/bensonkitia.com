@@ -19,8 +19,8 @@ Alternatively, you can manually add the feed to your RSS client with the followi
 
 By Category: `https://bensonkitia.com/categories/example-category/index.xml`
 
-By Tag: `https://bensonkitia.com/categories/example-tag/index.xml`
+By Tag: `https://bensonkitia.com/tags/example-tag/index.xml`
 
 ## Twitter
 
-You can follow a feed of new writings [here](https://twitter.com/bensonkitiacom) (@bensonkitiacom) and [enable notifications](https://help.twitter.com/en/managing-your-account/notifications-on-mobile-devices) so you don't miss a new writing.
+You can follow a feed of new writings [here](https://twitter.com/bensonkitiacom) (@bensonkitiacom) and [enable notifications](https://help.twitter.com/en/managing-your-account/notifications-on-mobile-devices) so you don't miss a new Writing.
