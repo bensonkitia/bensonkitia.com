@@ -29,12 +29,14 @@ body {
 a {
   color: inherit;
   text-decoration: underline;
-  text-decoration-color: violet;
-  text-decoration-thickness: 0.125em;
+  text-decoration-color: var(--secondary);
+  text-decoration-thickness: 0.12em;
+  text-underline-offset: .15em;
+  text-underline-position: below;
 
   &:hover {
     background-color: var(--secondary);
-    text-decoration-thickness: 0.2em;
+    text-decoration: none;
   }
 }
 
@@ -88,7 +90,6 @@ li {
 nav {
   li {
     line-height: 2;
-    text-decoration: underline;
   }
 
   ul {
