@@ -25,8 +25,7 @@
 	{{ with .OutputFormats.Get "RSS" -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 	{{- end }}
-	{{ $favicon := resources.Get "images/favicon.ico" }}
-	<link rel="icon" type="image/x-icon" href="{{ $favicon.Permalink }}"/>
+	<link rel="icon" type="image/x-icon" href="/images/favicon.ico"/>
 	<!-- analytics -->
 	{{ with .Site.Params.microAnalyticsId }}<script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="{{ . }}" async defer></script>{{ end }}
 	<!-- end analytics -->
