@@ -47,9 +47,10 @@ article {
 }
 
 blockquote {
-  border-left: 2px solid violet;
-  margin-left: 25px;
+  border-left: .125em solid violet;
+  margin-left: 30px;
   padding: 10px;
+  padding-left: 15px;
 
   a {
     color: inherit;
