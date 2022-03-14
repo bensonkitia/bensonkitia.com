@@ -3,7 +3,7 @@ title: "Privacy"
 date: false
 ---
 
-Last updated 02-21-2021
+Last updated 03-14-2021
 
 ## Scope
 
@@ -11,7 +11,7 @@ This privacy policy applies to bensonkitia.com and yerdle.bensonkitia.com.
 
 ## Terminology
 
-bensonkitia.com and yerdle.bensonkitia.com.
+bensonkitia.com and yerdle.bensonkitia.com:
 
 - the site
 
@@ -29,28 +29,32 @@ A user of the site:
 
 ## Data we collect
 
-### Data we collect automatically
+### Automatically collected analytics data
 
-#### Analytics data
-
-We collect non-personally-identifiable analytics data via [Microanalytics.io](https://microanalytics.io), including:
+We automatically collect anonymous, non-personally-identifiable analytics data via [GoatCounter](https://www.goatcounter.com/), including:
 
 - The pages of the site that you visit
-- The address of the any referring sites (site that you come from)
-- Your imprecise location, including your continent, country, or city
+- The address of any referring sites (the site that you come from)
+- Your browser
+- Your country
+- Your device model
 - Your language
 - Your operating system
-- Your browser
 - Your screen resolution
-- Your device
 
 We collect this data to understand who is using the site and how they are using the site to optimize the site and content.
 
-[Microanalytics.io's Privacy Policy](https://microanalytics.io/page/privacy) may apply to this data.
+[GoatCounter's Privacy Policy](https://www.goatcounter.com/help/privacy) may apply to this data.
 
 ## Data we do not collect
 
-We do not knowingly collect the data of users who are under 13 (or the minimum age of digital consent, as applicable in your jurisdiction).
+We do not collect any personally-identifiable data or personal information of any kind.
+
+The site is not intended for users under the age of 13, so we do not knowingly collect the data of users who are under 13 (or the minimum age of digital consent, as applicable in your jurisdiction).
+
+## Changes to this policy
+
+We may make changes to this privacy policy without notice or notification.
 
 ## Contact
 
