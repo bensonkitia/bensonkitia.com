@@ -17,9 +17,9 @@ bensonkitia.com and yerdle.bensonkitia.com:
 
 The proprietors of the site:
 
-- we
-- us
 - our
+- us
+- we
 
 A user of the site:
 
