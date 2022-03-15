@@ -7,7 +7,7 @@ seoImage = "https://i.imgur.com/Mg5YbdS.png"
 microAnalyticsId = "ZwSg9rf6GA"
 
 [[menu.main]]
-name = "Archive"
+name = "All Writings"
 url = "/writings"
 weight = 1
 [[menu.main]]
