@@ -3,7 +3,7 @@ title: "Colophon"
 date: false
 ---
 
-I write here mostly for myself, strictly to document my own life, projects, and opinions.
+I write here mostly for myself, strictly to document my own life, projects, and opinions. I also tend to write about stuff I care about, which usually includes tech, (iOS/web) product/software design and development, apps & workflows, and internet happenings.
 
 ## Toolbox
 
@@ -11,7 +11,7 @@ I write here mostly for myself, strictly to document my own life, projects, and 
 - [Markdown](https://daringfireball.net/projects/markdown/)
 - [Drafts](https://apps.apple.com/us/app/drafts/id1236254471)
 - [Visual Studio Code](https://code.visualstudio.com)
-- [GitKraken](https://www.gitkraken.com/)
+- [GitHub Desktop](https://desktop.github.com/)
 - [GitHub](https://github.com)
 - [Netlify](https://netlify.com)
 
