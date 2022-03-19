@@ -6,7 +6,7 @@ description: "A Ye-themed daily word puzzle"
 
 [Game Link](https://yerdle.bensonkitia.com)
 
-[GitHub Repository]("https://github.com/bensonkitia/yerdle)
+[GitHub Repository]("https://github.com/bensonkitia/yerdle")
 
 Yerdle is a Ye[^1]-themed daily word puzzle.
 
