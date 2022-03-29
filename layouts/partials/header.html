@@ -1,7 +1,9 @@
 <header>
   <div id="title">
-    <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
-    <span>by Benson Kitia</span>
+    <a href="{{ .Site.BaseURL }}"
+      ><h1>{{ .Site.Title }}</h1>
+      <span class="info"><small>from</small> Benson Kitia</span>
+    </a>
     {{ with .Site.Menus.main }}
   </div>
   <nav>

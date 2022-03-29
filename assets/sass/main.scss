@@ -119,24 +119,29 @@ nav {
 }
 
 #title {
-  display: inline;
+  font-family: Georgia, serif;
+  white-space: nowrap;
 
   a {
-    color: violet;
-    font-family: Georgia, serif;
     text-decoration: none;
-
     &:hover {
       background-color: inherit;
     }
   }
 
   h1 {
+    color: violet;
     display: inline;
   }
 
-  p {
-    display: inline;
+  span {
+    margin-right: 20px;
+  }
+}
+
+html {
+  #title {
+    user-select: none;
   }
 }
 
