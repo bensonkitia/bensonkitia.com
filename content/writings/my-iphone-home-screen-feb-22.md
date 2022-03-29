@@ -133,7 +133,7 @@ A very good RSS reader.
 
 ### [Drafts](https://apps.apple.com/us/app/drafts/id1236254471)
 
-Where these writings start.
+Where these Writings start.
 
 ### [Overcast](https://apps.apple.com/us/app/overcast/id888422857)
 

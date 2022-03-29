@@ -23,4 +23,4 @@ By Tag: `https://bensonkitia.com/tags/example-tag/index.xml`
 
 ## Twitter
 
-You can follow a feed of new writings [here](https://twitter.com/bensonkitiacom) (@bensonkitiacom) and [enable notifications](https://help.twitter.com/en/managing-your-account/notifications-on-mobile-devices) so you don't miss a new Writing.
+You can follow a feed of new Writings [here](https://twitter.com/bensonkitiacom) (@bensonkitiacom) and [enable notifications](https://help.twitter.com/en/managing-your-account/notifications-on-mobile-devices) so you don't miss a new Writing.
