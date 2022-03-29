@@ -5,7 +5,9 @@
     .Site.Params.mainSections) }}
     <li>
       <span class="info"
-        ><i><small>{{ .Date.Format "01-02-2006" }}</small></i></span
+        ><i
+          ><small><time>{{ .Date.Format "01-02-2006" }}</time></small></i
+        ></span
       ><br />
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </li>
