@@ -79,7 +79,7 @@ footer {
   font-style: italic;
 
   a {
-    text-decoration-color: inherit;
+    text-decoration-color: var(--font);
 
     &:hover {
       background-color: var(--font);
