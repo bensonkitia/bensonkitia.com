@@ -10,7 +10,9 @@
     {{ with .Params.categories }}
     <p>
       Posted in: {{ range $key, $value := . }} {{- if $key }}, {{ end }}
-      <a href='{{ "/tags/" | relLangURL }}{{ $value | urlize }}'>{{ . }}</a>
+      <a href='{{ "/categories/" | relLangURL }}{{ $value | urlize }}'
+        >{{ . }}</a
+      >
       {{- end }}
     </p>
     {{ end }} {{ with .Params.tags }}
