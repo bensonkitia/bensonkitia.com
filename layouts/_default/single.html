@@ -6,7 +6,7 @@
   </time>
   <article>{{ .Content }}</article>
   {{ if .Date }} {{ partial "thanks" . }} {{ end }}
-  <footer class="info">
+  <footer class="info" id="taxonomy">
     {{ with .Params.categories }}
     <p>
       Posted in: {{ range $key, $value := . }} {{- if $key }}, {{ end }}
