@@ -16,7 +16,8 @@ body {
   background-color: var(--background);
   color: var(--font);
 
-  font-family: -apple-system-body, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, sans-serif;
+  font-family: -apple-system-body, -apple-system, system-ui, BlinkMacSystemFont,
+    Helvetica, sans-serif;
 }
 
 .content {
@@ -30,7 +31,7 @@ a {
   text-decoration: underline;
   text-decoration-color: var(--secondary);
   text-decoration-thickness: 0.12em;
-  text-underline-offset: .15em;
+  text-underline-offset: 0.15em;
   text-underline-position: below;
 
   &:hover {
@@ -50,7 +51,7 @@ article {
 }
 
 blockquote {
-  border-left: .125em solid violet;
+  border-left: 0.125em solid violet;
   margin-left: 30px;
   padding: 10px;
   padding-left: 15px;
@@ -119,11 +120,11 @@ nav {
 }
 
 #title {
-  color: violet;
   display: inline;
-  font-family: Georgia, serif;
 
   a {
+    color: violet;
+    font-family: Georgia, serif;
     text-decoration: none;
 
     &:hover {
