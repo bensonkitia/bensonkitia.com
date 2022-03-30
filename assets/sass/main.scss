@@ -99,6 +99,10 @@ li {
 nav {
   a {
     text-decoration-color: violet;
+
+    &:hover {
+      background-color: violet;
+    }
   }
 
   li {
