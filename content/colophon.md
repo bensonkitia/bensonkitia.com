@@ -3,7 +3,7 @@ title: "Colophon"
 date: false
 ---
 
-I write here mostly for myself, strictly to document my own life, projects, and opinions. I also tend to write about stuff I care about, which usually includes tech, (iOS/web) product/software design and development, apps & workflows, and internet happenings.
+I write here mostly for myself, to document my own life, projects, and opinions. I also tend to write about stuff I care about, which usually includes tech, iOS/web design and development, software & workflows, and internet happenings.
 
 ## Toolbox
 
