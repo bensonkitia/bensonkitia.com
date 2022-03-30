@@ -11,25 +11,21 @@
 	{{ with .Site.Params.copyright }}<meta name ="copyright" content ={{ . }}/>{{ end }}
 	<meta property ="og:type" content ="website"/>
 	{{ with .Site.Params.baseURL }}<meta property ="og:url" content="{{ . }}">{{ end }}
-	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+	{{ with .Site.Author.name }}<meta name="author" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.title }}<meta property="og:title" content="{{ . }}">{{ end }}
-	{{ with .Site.Params.seoImage }}<meta property="og:image" content="{{ . }}">{{ end }}
 	<meta property ="twitter:card" content ="summary_large_image"/>
 	{{ with .Site.Params.baseURL }}<meta property="twitter:url" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.title }}<meta property="twitter:title" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.description }}<meta property="twitter:description" content="{{ . }}">{{ end }}
-	{{ with .Site.Params.seoImage }}<meta property="Twitter:image" content="{{ . }}">{{ end }}
-	<!-- end SEO stuff -->
+	<!-- Generate stylesheet -->
 	{{ $scss := resources.Get "sass/main.scss" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
 	<link rel="stylesheet" href="{{ $scss.Permalink }}">
+	<!-- Generate RSS feed -->
 	{{ with .OutputFormats.Get "RSS" -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 	{{- end }}
+	<!-- Favicon -->
 	<link rel="icon" type="image/x-icon" href="/images/favicon.ico"/>
-	<!-- analytics -->
-	{{ with .Site.Params.microAnalyticsId }}<script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="{{ . }}" async defer></script>{{ end }}
-	<!-- end analytics -->
-	<script>console.log("hello there :)")</script>
 </head>
 <body>
 	<div class="content">
