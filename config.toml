@@ -1,10 +1,13 @@
 baseURL = 'https://bensonkitia.com'
-languageCode = 'en-us'
-title = 'bk;'
 copyright = "Benson V.K."
-author = "Benson Kitia"
-seoImage = "https://i.imgur.com/Mg5YbdS.png"
-microAnalyticsId = "ZwSg9rf6GA"
+languageCode = 'en-us'
+timeZone = "America/Chicago"
+title = 'bk;'
+
+[author]
+name = "Benson Kitia"
+email = "benson@kitia.dev"
+twitter = "bensonkitia"
 
 [[menu.main]]
 name = "All Writings"
