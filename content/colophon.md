@@ -19,7 +19,7 @@ I write here mostly for myself, to document my own life, projects, and opinions.
 
 ### Writings
 
-[All Writings](https://bensonkitia.com/writings) (text) are licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) meaning, in summary, you are allowed to share or adapt the material for any purpose as long as you give appropriate credit, provide a link to the license, and indicate if changes were made.
+[All Writings](https://bensonkitia.com/writings) are Copyrighted © 2022-present Benson V.K. All Rights Reserved.
 
 ### Source Code
 
