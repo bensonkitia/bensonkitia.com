@@ -1,5 +1,6 @@
 backend:
   name: git-gateway
+  repo: bensonkitia/bensonkitia.com
   branch: main
 collections:
   - name: "writings" # Used in routes, e.g., /admin/collections/blog
