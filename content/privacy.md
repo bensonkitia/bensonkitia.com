@@ -1,6 +1,5 @@
 ---
-title: "Privacy"
-date: false
+title: "Privacy Policy"
 ---
 
 Last updated 03-14-2021

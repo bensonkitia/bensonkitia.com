@@ -1,6 +1,5 @@
 ---
 title: "AMA Bot"
-date: false
 description: "A Discord chatbot for hosting crowd-sourced interviews right inside a Discord server"
 ---
 

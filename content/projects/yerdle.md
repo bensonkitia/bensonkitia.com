@@ -1,6 +1,5 @@
 ---
 title: "Yerdle"
-date: false
 description: "A Ye-themed daily word puzzle"
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "Subscribe"
-date: false
 ---
 
 ## RSS

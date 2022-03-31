@@ -13,7 +13,7 @@
       </li>
     </ul>
   </nav>
-  {{ end }} {{ if not (eq .Title "Categories" "Tags" "Writings" "Projects") }}
+  {{ end }} {{ if eq .Kind "term" }}
   <p class="info">
     You can subscribe to an
     <a href="{{ .RelPermalink }}/index.xml"
