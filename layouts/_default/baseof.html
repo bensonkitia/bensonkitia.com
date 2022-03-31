@@ -42,6 +42,10 @@
 	{{ with .Site.Params.twitter }}<meta name="twitter:site" content="{{ . }}">{{ end }}
 	{{ with .Title }}<meta name="twitter:title" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.baseURL }}<meta name="twitter:url" content="{{ . }}">{{ end }}
+	<!-- Netlify CMS -->
+	{{ if eq .Kind "home" }}
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	{{ end }}
 </head>
 <body>
 	<div class="content">
@@ -49,5 +53,19 @@
 	{{ block "main" . }}{{ end }}
 	{{ partial "footer" . }}
 	</div>
+	<!-- Netlify CMS -->
+	{{ if eq .Kind "home" }}
+	<script>
+		if (window.netlifyIdentity) {
+		  window.netlifyIdentity.on("init", user => {
+			if (!user) {
+			  window.netlifyIdentity.on("login", () => {
+				document.location.href = "/admin/";
+			  });
+			}
+		  });
+		}
+	  </script>
+	{{ end }}
 </body>
 </html>

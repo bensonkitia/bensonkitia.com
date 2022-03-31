@@ -1,11 +1,6 @@
 backend:
   name: git-gateway
   branch: main
-
-publish_mode: editorial_workflow
-media_folder: "static/images/uploads"
-public_folder: "/images"
-
 collections:
   - name: "writings" # Used in routes, e.g., /admin/collections/blog
     label: "Writings" # Used in the UI
@@ -24,30 +19,15 @@ collections:
       - {
           label: "Tags",
           name: "tags",
-          widget: "select",
-          options:
-            [
-              "app store",
-              "apple",
-              "apps",
-              "commentary",
-              "culture",
-              "design",
-              "goals",
-              "home screens",
-              "ios",
-              "ios development",
-              "lists",
-              "platforms",
-              "podcasts",
-              "social media",
-              "web",
-              "workflows",
-              "yearly themes",
-              "youtube",
-            ],
-          multiple: true,
+          widget: "list",
+          add_to_top: false,
+          allow_add: true,
+          collapsed: false,
+          label_singular: "Add tag",
         }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Draft", name: "draft", widget: "boolean" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
       - { label: "Content", name: "content", widget: "markdown" }
+media_folder: "static/images/uploads"
+public_folder: "/images"
+publish_mode: editorial_workflow
