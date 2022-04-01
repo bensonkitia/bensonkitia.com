@@ -1,7 +1,7 @@
 <div>
   <h2>Recent Writings</h2>
   <ul id="writing-list">
-    {{ range first 10 (where .Site.RegularPages "Type" "in"
+    {{ range first 5 (where .Site.RegularPages "Type" "in"
     .Site.Params.mainSections) }}
     <li>
       <span class="info"
@@ -14,7 +14,7 @@
     {{ end }}
   </ul>
   <p id="recent-info">
-    <span class="info">Above are the 10 most recent Writings.</span>
+    <span class="info">Above are the 5 most recent Writings.</span>
     <span><a href="/writings">View All Writings</a></span>
   </p>
 </div>
