@@ -1,14 +1,15 @@
 :root {
-  --background: white;
-  --font: #444444;
-  --secondary: #949494;
+  --background: #444444;
+  --font: white;
+  --secondary: #aaa;
+  
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
-    --background: #444444;
-    --font: white;
-    --secondary: #aaa;
+    --background: white;
+    --font: #444444;
+    --secondary: #949494;
   }
 }
 
