@@ -13,7 +13,9 @@
 }
 
 body {
+  background-color: white;
   background-color: var(--background);
+  color: #444444;
   color: var(--font);
 
   font-family: -apple-system-body, -apple-system, system-ui, BlinkMacSystemFont,
@@ -29,11 +31,13 @@ body {
 a {
   color: inherit;
   text-decoration: underline;
+  text-decoration-color: #949494;
   text-decoration-color: var(--secondary);
   text-underline-offset: 0.15em;
   text-underline-position: below;
 
   &:hover {
+    background-color: #949494;
     background-color: var(--secondary);
     text-decoration: none;
   }
@@ -66,6 +70,7 @@ blockquote {
 }
 
 footer {
+  color: #949494;
   color: var(--secondary);
   text-align: justify;
 
@@ -84,14 +89,16 @@ h2, h3, h4, h5, h6 {
 }
 
 .info {
+  color: #949494;
   color: var(--secondary);
   font-style: italic;
 
   a {
+    text-decoration-color: #444444;
     text-decoration-color: var(--font);
 
     &:hover {
-      background-color: var(--font);
+      background-color: inherit;
     }
   }
 }
