@@ -2,9 +2,17 @@
 title: "Colophon"
 ---
 
+## About
+
+I'm a highschool student located in Chicago. I call myself a builder because I enjoy building things, mostly software at the moment.
+
 I write here mostly for myself, to document my own life, projects, and opinions. I also tend to write about stuff I care about, which usually includes tech, iOS/web design and development, software & workflows, and internet happenings.
 
+Anyone else reading, enjoying, learning from, or otherwise appreciating the writings published here would be a delightful side effect of using the internet as my journal.
+
 ## Toolbox
+
+### Software
 
 - [Hugo](https://gohugo.io)
 - [Markdown](https://daringfireball.net/projects/markdown/)
@@ -14,11 +22,19 @@ I write here mostly for myself, to document my own life, projects, and opinions.
 - [GitHub](https://github.com)
 - [Netlify](https://netlify.com)
 
-## Attribution
+### Hardware
+
+- [iPhone 13 mini](https://www.apple.com/iphone-13/)
+- [Mac mini](https://www.apple.com/mac-mini/) (base model with 16GB memory upgrade)
+- [Samsung 24" CF396 Curved LED Monitor](samsung.com/us/computing/monitors/curved/24-cf396-curved-led-monitor-lc24f396fhnxza/)
+- [Magic Keyboard](https://www.apple.com/shop/product/MK2A3LL/A/magic-keyboard-us-english)
+- [Logitech M720 TRIATHLON](https://www.logitech.com/en-us/products/mice/m720-triathlon.910-004790.html)
+
+## Licensing and attribution
 
 ### Writings
 
-[All Writings](https://bensonkitia.com/writings) are Copyrighted © 2022-present Benson V.K. All Rights Reserved.
+[All Writings](https://bensonkitia.com/writings) published to bensonkitia.com are Copyrighted © 2022-present Benson V.K. All Rights Reserved.
 
 ### Source Code
 
