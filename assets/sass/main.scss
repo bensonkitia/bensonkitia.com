@@ -43,15 +43,13 @@ a {
   }
 }
 
-article {
-  font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;;
-  
+article {  
   img {
     max-width: 240px;
   }
 
   p {
-    line-height: 1.5;
+    font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   }
 }
 
@@ -127,6 +125,10 @@ nav {
     list-style-type: none;
     padding: 0;
   }
+}
+
+p {
+  line-height: 1.5;
 }
 
 #recent-info {
