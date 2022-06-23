@@ -12,22 +12,22 @@
   </p>
 </div>
 <script defer>
-  function removeShareLinkDecoration() {
+  function hideShareLink() {
     try {
       const shareSheetLink = document.getElementById("sharesheet-link");
-      shareSheetLink.style.textDecoration = "inherit";
+      shareSheetLink.style.display = "none";
     } catch (error) {
       console.error(error);
     }
   }
   if (!navigator.share) {
-    removeShareLinkDecoration();
+    hideShareLink();
   }
   function shareSheet(permaLink) {
     if (navigator.share) {
       navigator.share({ url: permaLink }).catch(console.error);
     } else {
-      removeShareLinkDecoration();
+      hideShareLink();
     }
   }
 </script>
