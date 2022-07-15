@@ -21,11 +21,3 @@ By Tag e.g. "example tag": `https://bensonkitia.com/tags/example-tag/index.xml`
 ## Twitter
 
 You can follow a feed of new Writings [here](https://twitter.com/bensonkitiacom) (@bensonkitiacom) and [enable notifications](https://help.twitter.com/en/managing-your-account/notifications-on-mobile-devices) so you don't miss a new Writing.
-
-## JSON (beta)
-
-This option is currently in a beta/deprecated state; it's **not guaranteed to work as expected**.
-
-You can subscribe to a JSON feed of all new Writings with this link: <https://bensonkitia.com/index.json>
-
-You cannot currently subscribe to a feed of new Writings in/with specific Categories or Tags.
