@@ -1,9 +1,11 @@
 ---
 title: "On Spreading Positivity"
 categories:
-    - example
+    - life
 tags:
-    - example
+    - advice
+    - favorites
+    - short
 date: 2022-07-14T22:36:36-05:00
 draft: false
 ---
