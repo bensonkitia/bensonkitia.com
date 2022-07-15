@@ -2,7 +2,7 @@
 title: "Privacy Policy"
 ---
 
-Last updated 03-14-2021
+Last updated July 14th, 2022
 
 ## Scope
 
@@ -14,23 +14,21 @@ bensonkitia.com and yerdle.bensonkitia.com:
 
 - the site
 
-The proprietors of the site:
+The proprietor of the site:
 
-- our
-- us
-- we
+- I
+- my
 
 A user of the site:
 
-- user
 - you
 - your
 
-## Data we collect
+## Data I collect
 
 ### Automatically collected analytics data
 
-We automatically collect anonymous, non-personally-identifiable analytics data via [GoatCounter](https://www.goatcounter.com/), including:
+I automatically collect anonymous, non-personally identifiable analytics data via [GoatCounter](https://www.goatcounter.com/), including:
 
 - The pages of the site that you visit
 - The address of any referring sites (the site that you come from)
@@ -41,20 +39,18 @@ We automatically collect anonymous, non-personally-identifiable analytics data v
 - Your operating system
 - Your screen resolution
 
-We collect this data to understand who is using the site and how they are using the site to optimize the site and content.
+I collect this data to understand who is using the site and how the site is being used to optimize the site and content.
 
 [GoatCounter's Privacy Policy](https://www.goatcounter.com/help/privacy) may apply to this data.
 
-## Data we do not collect
+## Data I do not collect
 
-We do not collect any personally-identifiable data or personal information of any kind.
-
-The site is not intended for users under the age of 13, so we do not knowingly collect the data of users who are under 13 (or the minimum age of digital consent, as applicable in your jurisdiction).
+I do not collect any personally-identifiable data or personal information of any kind.
 
 ## Changes to this policy
 
-We may make changes to this privacy policy without notice or notification.
+I may make changes to this privacy policy without notice or notification.
 
 ## Contact
 
-Inquiries or comments regarding this policy or our privacy practices should be sent via email to benson@kitia.dev.
+Inquiries or comments regarding this policy or my privacy practices should be sent via email to benson@kitia.dev.
